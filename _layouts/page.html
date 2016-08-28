@@ -1,11 +1,27 @@
 ---
-layout: default
+layout: compress
 ---
-<article class="post container card">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-  <div class="post-content">
-    {{ content }}
-  </div>
-</article>
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    {% include head.html %}
+
+    <meta name="robots" content="noindex"> <!--=====  Please remove it ! ! !  ======-->
+    <meta name="googlebot" content="noindex"> <!--=====  Please remove it ! ! !  ======-->
+  </head>
+  <body class="{{ page.slug }}">
+    <main class="main">
+      {% include header.html %}
+      <div class="post-list col-sm-6 text-center">
+        <div class="layout-fixer-about">
+          <div class="">
+            {{ content }}
+          </div>
+        </div>
+      <p id="copyleft"><i class="fa fa-copyright" aria-hidden="true"></i> Copyleft</p>
+      </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="/custom.js"></script>
+  </body>
+</html>
