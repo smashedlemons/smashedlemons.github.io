@@ -1,13 +1,14 @@
 ---
-layout: page
+layout: default
 title: Archive
 permalink: /archive/
 slug: archive
+image: tren.JPG
 ---
-<div class="post-list">
-  {% for post in site.posts | limit:3 %}
+<!-- <div class="post-list"> -->
+  {% for post in site.posts %}
     {% include post.html %}
   {% endfor %}
 
   <!-- {% include pagination.html %} -->
-</div>
+<!-- </div> -->

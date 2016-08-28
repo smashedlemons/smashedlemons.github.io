@@ -2,12 +2,12 @@
 layout: default
 title: Home
 slug: home
+image: trung.JPG
 ---
-
-<div class="post-list">
-  {% for post in site.posts | limit:3 %}
-    {% include post.html %}
-  {% endfor %}
-
-  <!-- {% include pagination.html %} -->
-</div>
+<!-- <h1 class="title">Welcome to <i>smashedlemons</i>' blog</h1>
+<br/> -->
+{% for post in site.posts | limit:3 %}
+  {% include post.html %}
+{% endfor %}
+<a href="/archive" class="read-more"><i>all posts</i></a>
+<!-- {% include footer.html %} -->

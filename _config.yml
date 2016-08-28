@@ -1,14 +1,13 @@
 # Site settings
-title: smashedLemons
-alter_title: lemonade (no sugar added)
+title: lemonade
+alter_title: smashed_lemons
 email: miss.mino.fiona@gmail.com
-description: Um lindo tema feito para jekyll e com o <3
+description: (no sugar added)
 
 author:
   name     : 'Smashedlemons'
   email    : miss.mino.fiona@gmail.com
-  url      : http://nandomoreira.me
-  twitter  : http://twitter.com/smashedlemons
+  twitter  : http://twitter.com/smashed_lemons
 
 github: https://github.com/smashedlemons
 disqus_shortname: ""
@@ -25,3 +24,5 @@ sass:
 # Build settings
 markdown  : kramdown
 permalink : /:title/
+
+baseurl: https://smashedlemons.github.io

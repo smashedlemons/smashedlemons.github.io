@@ -12,8 +12,14 @@ layout: compress
   <body class="{{ page.slug }}">
     <main class="main">
       {% include header.html %}
-      {{ content }}
-      {% include footer.html %}
+      <div class="post-list col-sm-6 text-center">
+        <div class="layout-fixer">
+          {{ content }}
+        </div>
+      <p id="copyleft"><i class="fa fa-copyright" aria-hidden="true"></i> Copyleft</p>
+      </div>
     </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="/custom.js"></script>
   </body>
 </html>
