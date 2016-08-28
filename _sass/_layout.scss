@@ -47,9 +47,11 @@
   height: auto!important;
 }
 .layout-fixer-about {
-display: flex;
-justify-content: center;
-align-items: center;
+  min-height: 90%;
+  height: auto !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .article-container {
   min-height: 90%;
