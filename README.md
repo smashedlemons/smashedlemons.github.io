@@ -1,5 +1,1 @@
-Personal website. Fiona Mino oh yeah.
-
-> Im the best fuck the rest
-
-*markdown looks really cool*
+Personal website of Fiona Mino aka Fiona Zhapiku aka [@smashed_lemons](https://twitter.com/smashed_lemons).

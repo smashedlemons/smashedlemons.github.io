@@ -13,9 +13,17 @@ layout: compress
     <main class="main">
       {% include header.html %}
       <div class="post-list col-sm-6 text-center">
+        {% if page.title == 'About' %}
+        <div class="layout-fixer-about">
+          <div class="">
+            {{ content }}
+          </div>
+        </div>
+        {% else %}
         <div class="layout-fixer">
           {{ content }}
         </div>
+        {% endif %}
       <p id="copyleft"><i class="fa fa-copyright" aria-hidden="true"></i> Copyleft</p>
       </div>
     </main>
